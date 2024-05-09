@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fafbfc;
+}
+
+
+
+
+    #cabeca {
+        position: fixed; /* Define a posição fixa */
+        top: 0; /* Coloca o cabeçalho no topo da página */
+        width: 100%; /* Define a largura total */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        background-color: #006cb4;
+        color: #fff;
+        font-size: 18px; /* Aumenta o tamanho da fonte */
+    }
+    
+    #logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+h2 {
+    color: #006cb4;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+main {
+    padding: 30px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.lineInput {
+    margin-bottom: 10px;
+}
+
+#botao {
+    border: none;
+    padding: 4px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+   
+
+#botao a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #4CAF50; /* Cor de fundo */
+    padding: 10px 20px; /* Aumenta o espaçamento interno */
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Transição suave */
+   
+}
+
+#botao a:hover {
+    background-color: #45a049; /* Altera a cor de fundo ao passar o mouse */
+}
